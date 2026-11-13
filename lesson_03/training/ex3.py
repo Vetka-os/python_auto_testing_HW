@@ -17,5 +17,7 @@ names = ", ".join(
 )
 
 print(
-    f"{course_group.student.first_name} {course_group.student.last_name}, {course_group.student.age} лет, учится на курсе {course_group.student.course} вместе с: {names}"
+    f"{course_group.student.first_name} {course_group.student.last_name}, "
+    f"{course_group.student.age} лет, учится на курсе {course_group.student.course} "
+    f"вместе с: {names}"
 )

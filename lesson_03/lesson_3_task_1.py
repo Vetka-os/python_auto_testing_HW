@@ -2,6 +2,6 @@ from user import User
 
 my_user = User("Сережа", "Иванов")
 
-my_user.seyFirstName()
-my_user.seyLastName()
-my_user.FirsLasttName()
+my_user.say_first_name()
+my_user.say_last_name()
+my_user.say_full_name()

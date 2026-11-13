@@ -3,11 +3,11 @@ class User:
         self.first_name = first_name
         self.last_name = last_name
 
-    def seyFirstName(self):
-        return print(self.first_name)
+    def say_first_name(self):
+        print(self.first_name)
 
-    def seyLastName(self):
-        return print(self.last_name)
+    def say_last_name(self):
+        print(self.last_name)
 
-    def FirsLasttName(self):
-        return print(f"{self.first_name} {self.last_name}")
+    def say_full_name(self):
+        print(f"{self.first_name} {self.last_name}")

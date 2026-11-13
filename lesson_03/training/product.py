@@ -4,11 +4,11 @@ class Product:
         self.name = name
         self.price = price
 
-    def prodName(self):
+    def prod_name(self):
         return self.name
 
-    def prodPrice(self):
+    def prod_price(self):
         return self.price
 
-    def NamePrice(self):
+    def name_price(self):
         return f"Наименование: {self.name}, цена: {self.price}."
